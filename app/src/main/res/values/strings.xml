@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">Remotio</string>
+
+    <string name="platform_roku">Roku TV</string>
+    <string name="platform_fire_tv">Fire TV</string>
+
+    <string name="status_online">Connected</string>
+    <string name="status_offline">Can\'t reach</string>
+    <string name="status_checking">Checking…</string>
+    <string name="status_line">%1$s · %2$s</string>
+
+    <string name="key_power">Power</string>
+    <string name="key_home">Home</string>
+    <string name="key_back">Back</string>
+    <string name="key_options">Options</string>
+    <string name="key_up">Up</string>
+    <string name="key_down">Down</string>
+    <string name="key_left">Left</string>
+    <string name="key_right">Right</string>
+    <string name="key_select">OK</string>
+    <string name="key_instant_replay">Instant replay</string>
+    <string name="key_rewind">Rewind</string>
+    <string name="key_play_pause">Play or pause</string>
+    <string name="key_fast_forward">Fast forward</string>
+    <string name="key_volume_up">Volume up</string>
+    <string name="key_volume_down">Volume down</string>
+    <string name="key_mute">Mute</string>
+    <string name="key_channel_up">Channel up</string>
+    <string name="key_channel_down">Channel down</string>
+    <string name="rocker_volume">VOL</string>
+    <string name="rocker_channel">CH</string>
+
+    <string name="switch_tv">Switch TV</string>
+    <string name="add_tv">Add another TV</string>
+    <string name="forget_tv">Forget %1$s</string>
+
+    <string name="picker_title">Choose a TV</string>
+    <string name="scan_again">Scan again</string>
+    <string name="back">Back</string>
+    <string name="your_tvs">Your TVs</string>
+    <string name="on_your_network">On your Wi-Fi</string>
+    <string name="nothing_found">No TVs found yet. Make sure the TV or Fire TV Stick is on and connected to the same Wi-Fi as this phone.</string>
+    <string name="add_by_ip">Add by IP address</string>
+    <string name="ip_address">IP address</string>
+    <string name="connect">Connect</string>
+    <string name="ip_hint">Roku: Settings › Network › About. Fire TV: Settings › My Fire TV › About › Network.</string>
+
+    <string name="pair_title">Pair with %1$s</string>
+    <string name="pair_waking">Asking the Fire TV for a PIN…</string>
+    <string name="pair_enter_pin">Enter the PIN shown on your TV.</string>
+    <string name="pair_pin">PIN</string>
+    <string name="pair_wrong_pin">That PIN didn\'t work. Check the TV and try again.</string>
+    <string name="pair">Pair</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="message_unreachable">Can\'t reach %1$s. Is it on and on the same Wi-Fi?</string>
+    <string name="message_roku_control_disabled">Your Roku TV blocked the command. On the TV, open Settings › System › Advanced system settings › Control by mobile apps and set Network access to Default.</string>
+    <string name="message_not_found">No %2$s answered at %1$s.</string>
+    <string name="message_pairing_failed">Couldn\'t pair with %1$s. Try again.</string>
+
+    <string name="type">Type</string>
+    <string name="type_hint">Search on TV</string>
+    <string name="speak_hint">Say a title</string>
+    <string name="switch_to_dpad">Switch to D-pad layout</string>
+    <string name="switch_to_touchpad">Switch to touchpad layout</string>
+    <string name="touchpad_hint_title">Swipe to move · Tap to select</string>
+    <string name="touchpad_hint_body">Swipe and hold to keep scrolling</string>
+    <string name="touchpad_description">Touchpad. Swipe to move, tap to select.</string>
+    <string name="type_to_tv">Type to %1$s</string>
+    <string name="type_subtitle">Goes into whatever text box is open on the TV</string>
+    <string name="text_for_tv">Text for TV</string>
+    <string name="live_typing">Live typing: letters appear on the TV as you type</string>
+    <string name="recent">Recent</string>
+    <string name="delete_on_tv">Delete on TV</string>
+    <string name="send">Send</string>
+    <string name="speak">Speak</string>
+    <string name="clear_text">Clear text</string>
+    <string name="voice_prompt">Say something to type on %1$s</string>
+    <string name="voice_unavailable">Voice typing isn\'t available on this phone</string>
+    <string name="message_command_failed">%1$s didn\'t accept that. Try again.</string>
+
+    <string name="permission_title">Allow local network access</string>
+    <string name="permission_body">Remotio controls your TV over Wi-Fi, so it needs permission to find and talk to devices on your home network.</string>
+    <string name="permission_allow">Allow</string>
+</resources>

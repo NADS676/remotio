@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!--
+        TVs only speak plain HTTP on the local network: Roku ECP on port 8060 and the Fire TV
+        DIAL wake-up on port 8009. Hosts are whatever IP the TV has, so this can't be narrowed
+        to a domain list.
+    -->
+    <base-config cleartextTrafficPermitted="true" />
+</network-security-config>
